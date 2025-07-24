@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;  
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-container{
+    display: flex;
+    gap:20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.button{
+    height: 100px;
+    width:100px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.btn-container  #sky{
+    background-color:#97efe9 ;
+}
+
+.btn-container  #ash{
+    background-color:#A7C4C2 ;
+}
+
+.btn-container  #purple-1{
+    background-color:#66023C ;
+}
+
+.btn-container  #purple-2{
+    background-color:#4A001F ;
+}
+.btn-container  #purple-3{
+    background-color:#2D001F ;
+}
+
